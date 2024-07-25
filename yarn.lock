@@ -725,6 +725,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@twa-dev/sdk@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "@twa-dev/sdk@npm:7.0.0"
+  dependencies:
+    "@twa-dev/types": "npm:^7.0.0"
+  peerDependencies:
+    react: ">=16.0.0"
+  checksum: 10c0/73ae553067f407a3d14a75d65614a556167cceb0d12805edea41166ed6b3470c1bbe9ef1ee1f8b2ef5c9b3b234b450c7defbfd15924fcf5eb1979d2540fc2be3
+  languageName: node
+  linkType: hard
+
+"@twa-dev/types@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "@twa-dev/types@npm:7.0.0"
+  checksum: 10c0/1beef9e21a962a31361bd77607c39276b35df18a7328cd623bd6dd928892a01f98b9a2e5d169213354a14def6a0ca9d2e77db9a505c8d4235064e3f0af54f513
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.20.5":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -2267,6 +2285,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-react-telegram-web-app@workspace:."
   dependencies:
+    "@twa-dev/sdk": "npm:^7.0.0"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.15.0"
